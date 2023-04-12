@@ -1,0 +1,15 @@
+<suite name="OrangeHRM suite">
+
+   <test name="Adim login test">
+   <parameter name="x" value="Admin"></parameter>
+   <parameter name="y" value="Qedge123!@#"></parameter>
+   
+   
+   		<classes>
+   			<class name="Orangehrm.testcases.AdminLoginwithValidData">
+   			
+   			</class>
+   		</classes>
+   
+   </test>
+   </suite>

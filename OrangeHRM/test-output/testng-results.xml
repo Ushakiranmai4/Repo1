@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM suite" duration-ms="5271" started-at="2023-04-05T10:20:54 IST" finished-at="2023-04-05T10:20:59 IST">
+    <groups>
+    </groups>
+    <test name="Adim login test on chrome" duration-ms="3147" started-at="2023-04-05T10:20:54 IST" finished-at="2023-04-05T10:20:57 IST">
+      <class name="testcases.Demotest">
+        <test-method status="PASS" signature="checkLogin(java.lang.String)[pri:0, instance:testcases.Demotest@6c49835d]" name="checkLogin" duration-ms="3107" started-at="2023-04-05T10:20:54 IST" finished-at="2023-04-05T10:20:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogin -->
+      </class> <!-- testcases.Demotest -->
+    </test> <!-- Adim login test on chrome -->
+    <test name="Adim login test on firefox" duration-ms="5271" started-at="2023-04-05T10:20:54 IST" finished-at="2023-04-05T10:20:59 IST">
+      <class name="testcases.Demotest">
+        <test-method status="PASS" signature="checkLogin(java.lang.String)[pri:0, instance:testcases.Demotest@3043fe0e]" name="checkLogin" duration-ms="5233" started-at="2023-04-05T10:20:54 IST" finished-at="2023-04-05T10:20:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogin -->
+      </class> <!-- testcases.Demotest -->
+    </test> <!-- Adim login test on firefox -->
+  </suite> <!-- OrangeHRM suite -->
+</testng-results>

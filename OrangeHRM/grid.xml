@@ -1,0 +1,26 @@
+<suite name="OrangeHRM suite" parallel="tests">
+
+   <test name="Adim login test on chrome">
+   <parameter name="browser" value="chrome"></parameter>
+
+   		<classes>
+   			<class name="testcases.Demotest">
+   			
+   			</class>
+   		</classes>
+   
+   </test>
+   
+   <test name="Adim login test on firefox">
+   <parameter name="browser" value="firefox"></parameter>
+   
+   
+   
+   		<classes>
+   			<class name="testcases.Demotest">
+   			
+   			</class>
+   		</classes>
+   
+   </test>
+   </suite>
