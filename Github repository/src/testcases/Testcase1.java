@@ -1,10 +1,11 @@
 package testcases;
 
-public class Testcase1 {
+public class Testcase1
+{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public static void main(String[] args)
+	{
+		System.out.println("Testcases in Github");
 	}
 
 }
